@@ -1,0 +1,68 @@
+body {
+	justify-content: center;
+	align-items: center;
+	background-color: lightgrey;
+	font-family: calibri;
+	font-size: 20px;
+}
+.navigation {
+	position: relative;
+}
+.navigation ul li:hover {
+	color: grey;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.navigation ul {
+	position: block;
+}
+.title {
+	padding: right 50px;
+	width: 300px;
+	height: 40px;
+}
+.navigation ul li {
+	line-height: normal;
+	position: relative;
+	float: right;
+	list-style-type: none;
+	padding-inline-end: 5%;
+}
+.submitEmail {
+	text-align: center;
+}
+.submitEmail input {
+	width: 300px;
+	background: white;
+	border: lightgrey;
+	border-spacing: 100px;
+}
+.submitEmail .submitButton {
+	width: 200px;
+	background: #ff7f50;
+	border-color: grey;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+}
+.submitEmail .submitButton:hover {
+	background: orangered;
+	color: white;
+	transition: 0.3s;
+}
+.mainQuality {
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	grid-template-rows: 50px 50px;
+	justify-self: center;
+	max-width: 1000px;
+}
+.mainQuality ul li {
+	position: relative;
+	margin: auto;
+	list-style-type: none;
+	width: 60%;
+}
+.mainQuality ul li .icon {
+	color: #ff7f50;
+}

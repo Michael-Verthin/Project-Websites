@@ -1,0 +1,90 @@
+*
+{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popping', Calibri;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #232c33;
+}
+.navigation{
+    position: relative;
+    background: #2b343b;
+    box-shadow: 0 10px 0 #232c33;
+    border-bottom: 10px solid #2b343b;
+    overflow-x: hidden;
+}
+.navigation:hover{
+    height :200px;
+    transition: height 1s;
+}
+.navigation ul {
+    position: relative;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding-top: 5px;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #4187f6;
+}
+.navigation ul li{
+    float: left;
+    position: relative;
+    list-style: none;
+}
+.navigation ul li.active{
+    background: #232c33;
+}
+.navigation ul li.active a::before{
+    content:'';
+    position:absolute;
+    top: -30px;
+    right: 30px;
+    width:30px;
+    height: 30px;
+    background: #2b343b;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 red;
+}
+.navigation ul li.active a::after{
+    content:'';
+    position:absolute;
+    bottom: -30px;
+    right:0;
+    width:30px;
+    height: 30px;
+    background: #2b343b;
+    border-radius: 50%;
+    box-shadow: 15px -15px 0 red;
+}
+.navigation ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.navigation ul li a .icon{
+    position: relative;
+    display: block;
+    min-width: 80px;
+    height: 20px;
+    text-align: center;
+}
+.navigation ul li a .icon ion-icon{
+    position: relative;
+    font-size:1.5em;
+    z-index: 1;
+}
+.navigation ul li a .title{
+    position: relative;
+    display: block;
+    height: 30px;
+    white-space: nowrap;
+}

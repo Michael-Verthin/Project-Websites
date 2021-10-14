@@ -10,11 +10,14 @@
         <link rel="icon" type="image/x-icon" href="assets/img/FaceLogo.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        
+        
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -27,8 +30,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">// Work</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">// Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">// About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">// Skills</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">// Contact</a></li>
                     </ul>
                 </div>
@@ -51,76 +55,57 @@
                 <p class="masthead-subheading font-weight-light mb-0">Quality Assurance | Software Tester</p>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <!-- Portfolio Section--> 
+        <hr class="mb-0">
+        <section class="page-section bg-primary portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Work</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Projects</h2>
+                <!-- Icon Divider-->    
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-briefcase"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
+                <dev><div class="container mb-0 col-lg-7 align-items-center text-center text-white"><p class="lead">
+                    Here are some of my featured projects I worked on
+                </p></div></dev><br>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-0 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/warehouse.png" alt="..." />
                         </div>
+                        <div class="container col-lg-auto text-center text-white"><p class="lead">Project <b>"Warehouse"</b></p></div>
                     </div>
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-0 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/Web.png" alt="..." />
                         </div>
+                        <div class="container col-lg-auto text-center text-white"><p class="lead">Project <b>"Web"</b></p></div>
                     </div>
                     <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="col-md-0 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/Base.png" alt="..." />
                         </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Base.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Base.png" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Base.png" alt="..." />
-                        </div>
+                        <div class="container col-lg-auto text-center text-white"><p class="lead">Project <b>"Mobile"</b></p></div>
                     </div>
                 </div>
             </div>
         </section>
+        <hr class="mb-0">
         <!-- About Section-->
         <section class="page-section bg-primary text-white mb-0" id="about">
             <div class="container">
@@ -133,102 +118,181 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="ms-auto text-center"><p class="lead">The most important quality assurance skills for me are <b>Planning</b> and delivering <b>Result</b>,
+                <div>
+                    <div class="container mb-0 col-lg-8 align-items-center text-center"><p class="lead">Hello, my name is Michael.<br><br>
+                        After 4 years of serving in the <b>Israeli Navy</b>, I searched for a workplace where I can hone my skills, challenge myself and 
+                        learn new tricks. I found my place in QA, <b>Quality Assurance</b>, I studied the process of <b>Software 
+                        Testing</b> and got invested in all of its aspects</p></div>
+                    <div class="container mb-0 col-lg-8 align-items-center text-center"><p class="lead">The most important quality assurance skills for me are 
+                        <b>Planning</b> and delivering <b>Result</b>,
                         I believe that I am ultimately responsible for delivering and maintaining the QA process consistently throughout everything I do,
                         In my opinion, I have those skills and qualities and can be relied upon to deliver fantastic results,</p></div>
-                        <div class="text-center"><p class="lead"> Except for Quality Assurance, I am a big programming enthusiast that loves to discover new programming languages and learn new algorithms to solve problems. Another thing that I absolutely adore is coffee, there is nothing better
-                            then a good cup of coffee in the morning.</p></div>
+                    <div class="container mb-0 col-lg-8 align-items-center text-center"><p class="lead"> Except for Quality Assurance, I am a big programming 
+                        enthusiast that loves to discover new programming languages and learn new algorithms to solve problems. Another thing that I absolutely 
+                        adore is coffee, there is nothing better
+                        then a good cup of coffee in the morning.</p></div>
+                    </div>
+                </div><hr>
+                 <!-- Skill Start -->
+    <div class="page-section bg-primary text-white mb-0" id="skills">
+        <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            <div class="position-relative d-flex align-items-center justify-content-center mb-0"></div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">65%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">50%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">C#</h6>
+                            <h6 class="font-weight-bold">70%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SQL</h6>
+                            <h6 class="font-weight-bold">75%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
                     </div>
                 </div>
-                    <hr><br><br>
-                <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead"><b>// Main Skills:</b>
-                        <br>Object-oriented language – <b>C#</b><br>Markup language – <b>HTML, CSS</b><br>Query language – <b>SQL</b><br>
-                        Methodology – <b>Waterfall, Spiral, V, Agile, Scrum, TDD</b></p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead"><b>// Tools:</b>
-                        <br>IDE – <b>Visual Studio Code</b><br>Source control – <b>Git, GitHub</b><br>Microsoft Office 365 – <b>Word, Excel, PowerPoint, OneNote</b>
-                        <br>Google Suite – <b>Docs, Sheets, Slides, Forms</b><br>Product Management – <b>Jira, Trello</b>
-                        </p></div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Quality Assurance</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Jira</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Microsoft Office</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Google Suite</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar --bs-primary" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="assets/Resume/Michael Verthin - Resume - En.docx">
+                    <a class="btn btn-xl btn-outline-light" href="assets/Resume/Michael Verthin - Resume - En.docx" download="Michael Verthin - Resume">
                         <i class="fas fa-download me-2"></i>
                         Download Resume!
                     </a>
                 </div>
             </div>
         </section>
+        <hr>
         <!-- Contact Section-->
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Contact Me</h2>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-address-card"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" action="https://formspree.io/f/mzbywqvg" method="post" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" name="_replyto" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" name="telephone" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" name="message" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
+                <div class="container-fluid py-5" id="contact">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-xl-7">
+                                <div class="contact-form text-center">
+                                    <div id="success"></div>
+                                    <form action="https://formsubmit.co/michaelvn5202@gmail.com" method="post" name="sentMessage" id="contactForm" novalidate="novalidate">
+                                        <div class="row">
+                                            <div class="control-group col-sm-6">
+                                                <input type="text" class="form-control p-3" id="name" placeholder="Your Name"
+                                                    required="required" data-validation-required-message="Please enter your name" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                            <div class="control-group col-sm-6">
+                                                <input type="email" class="form-control p-3" id="email" placeholder="Your Email"
+                                                    required="required" data-validation-required-message="Please enter your email" />
+                                                <p class="help-block text-danger"></p>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <input type="text" class="form-control p-3" id="subject" placeholder="Subject"
+                                                required="required" data-validation-required-message="Please enter a subject" />
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div class="control-group">
+                                            <textarea class="form-control py-3 px-3" rows="5" id="message" placeholder="Message"
+                                                required="required"
+                                                data-validation-required-message="Please enter your message"></textarea>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                        <div>
+                                            <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                                Message</button>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+                <!-- Contact End -->
+        </div>
+    </section>
         <!-- Footer-->
-        <footer class="footer text-center">
+        <footer class="footer py-4 copyright text-center">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
@@ -259,7 +323,7 @@
             </div>
         </footer>
         <!-- Copyright Section-->
-        <div class="copyright py-4 text-center text-white">
+        <div class=" copyright py-4 text-center text-white">
             <div class="container"><small>Copyright &copy; Michael Verthin 2021</small></div>
         </div>
         <!-- Portfolio Modals-->
@@ -292,15 +356,23 @@
                                         <hr>At the end of the project, we handed our STP projects and presented the presentation in front of an audience, 
                                         I've included a copy of the document and the presentation </p>
                                     <div class="text-center mt-4">
-                                        <a class="btn btn-xl btn-outline-dark" href="assets/Files/project warehouse/Michael Verthin - STP Document.docx">
+                                        <a class="btn btn-xl btn-outline-dark" style="width: 350px;" href="assets/Files/project warehouse/Michael Verthin - STP Document.docx">
                                             <i class="fas fa-download me-2"></i>
                                             Download STP document
                                         </a>
+                                        <a class="btn btn-xl btn-outline-dark" href="https://docs.google.com/document/d/1-iDI3RVapPLCqd0ODJmczLm6D1UBOrDQ/edit?usp=sharing&ouid=103780277019540680906&rtpof=true&sd=true" target="_blank">
+                                            <i class="fas fa-eye me-2"></i>
+                                            View in browser
+                                        </a>
                                     </div>
                                     <div class="text-center mt-4">
-                                        <a class="btn btn-xl btn-outline-dark" href="assets/Files/project warehouse/Michael Verthin - STP Presentation.pptx">
+                                        <a class="btn btn-xl btn-outline-dark"  style="width: 350px;" href="assets/Files/project warehouse/Michael Verthin - STP Presentation.pptx">
                                             <i class="fas fa-download me-2"></i>
                                             Download STP presentation
+                                        </a>
+                                        <a class="btn btn-xl btn-outline-dark" href="https://docs.google.com/presentation/d/1h54_uswUo7TwTLchwD-ND1mDOPsQklXd/edit?usp=sharing&ouid=103780277019540680906&rtpof=true&sd=true" target="_blank">
+                                            <i class="fas fa-eye me-2"></i>
+                                            View in browser
                                         </a>
                                     </div>
                                         <br><button class="btn btn-primary" href="#" data-bs-dismiss="modal">
@@ -376,7 +448,7 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Lorem ipsum</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
@@ -384,7 +456,8 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Base.png" alt="..." />
+                                    
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
@@ -494,14 +567,30 @@
                 </div>
             </div>
         </div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <!-- JavaScript Libraries -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
     </body>
 </html>

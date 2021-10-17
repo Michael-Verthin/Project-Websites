@@ -3251,6 +3251,19 @@ fieldset:disabled .btn {
 	border-color: #ff7f50;
 }
 
+@media (min-width: 992px) {
+	.btn-lg,
+	.btn-group-lg > .btn {
+		padding: 0.25rem 0.5rem;
+		font-size: 0.8rem;
+		border-radius: 0.25rem;
+		padding-top: 1 !important;
+		padding-bottom: 1 !important;
+		padding-left: 1 !important;
+		padding-right: 1 !important;
+	}
+}
+
 .btn-info {
 	color: #000;
 	background-color: #0dcaf0;

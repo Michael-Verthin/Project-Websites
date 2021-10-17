@@ -62,3 +62,47 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+var english = document.getElementById('en_click'),
+    hebraw = document.getElementById('he_click'),
+    en_txt = document.querySelectorAll('#en'),
+    he_txt = document.querySelectorAll('#he'),
+    nb_en = en_txt.length,
+    nb_he = he_txt.length;
+
+english.addEventListener('click', function() {
+    langue(english,hebraw);
+}, false);
+
+hebraw.addEventListener('click', function() {
+    langue(hebraw,english);
+}, false);
+
+function langue(langueOn,langueOff){
+    if (!langueOn.classList.contains('current_lang')) {
+        langueOn.classList.toggle('current_lang');
+        langueOff.classList.toggle('current_lang');
+    }
+    if(langueOn.innerHTML == 'en'){
+        afficher(en_txt, nb_en);
+        cacher(he_txt, nb_he);
+    }
+    else if(langueOn.innerHTML == 'he'){
+        afficher(he_txt, nb_he);
+        cacher(en_txt, nb_en);
+    }
+}
+
+function afficher(txt,nb){
+    for(var i=0; i < nb; i++){
+        txt[i].style.display = 'block';
+    }
+}
+function cacher(txt,nb){
+    for(var i=0; i < nb; i++){
+        txt[i].style.display = 'none';
+    }
+}
+function init(){
+    langue(english,hebraw);
+}
+init();
